@@ -11,7 +11,7 @@ class SearchBox():
         searchFieldElement.send_keys(search)
 
     def click_to_search_button(self):
-        searchButtonElement = self.driver.find_element(By.ID, "nav-search-submit-button")
+        searchButtonElement = self.driver.find_element(By.ID, "nav-search-submit-button" )
         searchButtonElement.click()
 
 
