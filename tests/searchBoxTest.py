@@ -4,6 +4,8 @@ import unittest
 from selenium import webdriver
 from pages.searchBoxPage import SearchBox
 
+
+class SearchBoxTest(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
